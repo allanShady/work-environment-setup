@@ -10,6 +10,7 @@ My favorities tools sets and set up.
   
   Customization / Extensions
   - [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl), with dark mode and no italic.
+  - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
   - [.ENV](https://github.com/zaynali53/DotENV)
   - [ES6 code snippets](https://marketplace.visualstudio.com/items?itemName=jmsv.JavaScriptSnippetsStandard)
   - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
