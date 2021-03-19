@@ -4,9 +4,12 @@ My favorities tools sets and set up.
 ## OS
   - [Ubuntu Desktop LTS](https://ubuntu.com/download/desktop) (linux debian family)
   - [ubuntu for IoT](https://ubuntu.com/download/iot)
+  - [OH-MY-ZSH and agnoster configuration](https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/)
 
 ## IDEs
 - [VSCode](https://code.visualstudio.com/)
+- [Jetbrains Mono](https://www.jetbrains.com/lp/mono/#how-to-install)
+  > Always install as default in `/usr/share/fonts`
   
   Customization / Extensions
   - [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl), with dark mode and no italic.
