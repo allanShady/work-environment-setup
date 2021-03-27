@@ -54,6 +54,7 @@ My favorities tools sets and set up.
  
  ## UX design
  - [figma](https://www.figma.com/)
+ - [whimsical](https://whimsical.com)
  
  ## backend deployment 
   
