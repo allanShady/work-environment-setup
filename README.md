@@ -35,6 +35,8 @@ My favorities tools sets and set up.
   - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
   - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   - [Vue 3 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets)
+  - [git lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  - [git graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
  - [Jetbrains Rider](https://www.jetbrains.com/rider/)
  
  ## Enviroment setup
