@@ -5,6 +5,17 @@ My favorities tools sets and set up.
   - [Ubuntu Desktop LTS](https://ubuntu.com/download/desktop) (linux debian family)
   - [ubuntu for IoT](https://ubuntu.com/download/iot)
   - [OH-MY-ZSH and agnoster configuration](https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/)
+    * To see theme and hide user plus the host set the following values with 
+    ```shell
+      ZSH_THEME="agnoster" # set agnoster theme my favority one
+      
+      # Add auto suggestion for command or text you typed before
+      plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+      source $ZSH/oh-my-zsh.sh
+      
+      export DEFAULT_USER=$USER #add to hide user and host
+    ```
 
 ## IDEs
 - [VSCode](https://code.visualstudio.com/)
