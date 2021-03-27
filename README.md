@@ -71,3 +71,11 @@ My favorities tools sets and set up.
  - [docker container](https://www.docker.com/resources/what-container)
  - [nginx](https://www.nginx.com/)
  - [Helm](https://helm.sh/)
+
+## Usefull commands
+
+  ### Docker
+  * remove all untagged images
+  ```shell
+    docker rmi $(docker images -f dangling=true -q) --force
+  ```
