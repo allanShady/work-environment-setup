@@ -71,6 +71,9 @@ My favorities tools sets and set up.
  - [docker container](https://www.docker.com/resources/what-container)
  - [nginx](https://www.nginx.com/)
  - [Helm](https://helm.sh/)
+ 
+ ## Database
+ - [Beekeeper Studio - debian](https://docs.beekeeperstudio.io/installation/#linux-installation)
 
 ## Usefull commands
 
