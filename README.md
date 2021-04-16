@@ -74,6 +74,7 @@ My favorities tools sets and set up.
  
  ## Database
  - [Beekeeper Studio - debian](https://docs.beekeeperstudio.io/installation/#linux-installation)
+ - [DBeaver](https://dbeaver.io/download/)
 
 ## Usefull commands
 
