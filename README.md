@@ -39,12 +39,16 @@ My favorities tools sets and set up.
   - [git graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
  - [Jetbrains Rider](https://www.jetbrains.com/rider/)
  
+ API Testing tools
+  - [Insomnia](https://insomnia.rest/download)
+ 
  ## Enviroment setup
  
  ### backend / API
  
  - [nodeJS](https://nodejs.org/en/)
  - [.NET 5 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/linux)
+ - [Insomnia](https://insomnia.rest/download)
  
  ### frontend
  
