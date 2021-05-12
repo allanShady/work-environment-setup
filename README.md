@@ -16,6 +16,8 @@ My favorities tools sets and set up.
       
       export DEFAULT_USER=$USER #add to hide user and host
     ```
+   - [Install jq JASON processor for command line](https://stackoverflow.com/questions/33184780/install-jq-json-processor-on-ubuntu-10-04)
+    `sudo apt-get install jq`
 
 ## IDEs
 - [VSCode](https://code.visualstudio.com/)
