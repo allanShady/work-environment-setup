@@ -1,5 +1,6 @@
-# Tools sets
-My favorities tools sets and set up.
+# My work environment setup 
+
+Here is a list of my favorite tools and programs for different work environments. Enjoy it!
 
 ## OS
   - [Ubuntu Desktop LTS](https://ubuntu.com/download/desktop) (linux debian family)
