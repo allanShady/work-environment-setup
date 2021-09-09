@@ -90,3 +90,8 @@ Here is a list of my favorite tools and programs for different work environments
   ```shell
     docker rmi $(docker images -f dangling=true -q) --force
   ```
+  
+  ### Clear npm cache
+  ```bash
+    yarn cache clean --force
+  ```
