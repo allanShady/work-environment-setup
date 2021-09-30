@@ -95,3 +95,5 @@ Here is a list of my favorite tools and programs for different work environments
   ```bash
     yarn cache clean --force
   ```
+  
+  ### [AWS SAM installation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html)
