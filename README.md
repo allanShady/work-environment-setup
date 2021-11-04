@@ -100,4 +100,5 @@ Here is a list of my favorite tools and programs for different work environments
   ### JAVA installation
   * [install java on ubuntu ](https://linuxize.com/post/install-java-on-ubuntu-20-04/)
   * [maven](https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-20-04/)
+  * [updating maven](https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-20-04/#2-downloading-apache-maven)
   
