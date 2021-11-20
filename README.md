@@ -79,6 +79,8 @@ Here is a list of my favorite tools and programs for different work environments
  - [docker container](https://www.docker.com/resources/what-container)
  - [nginx](https://www.nginx.com/)
  - [Helm](https://helm.sh/)
+ - [k8slens](https://k8slens.dev/) - kubernetes IDE 4 pods debbunging 
+ - [minikube](https://minikube.sigs.k8s.io/docs/start/) local k8s cluster
  
  ## Database
  - [Beekeeper Studio - debian](https://docs.beekeeperstudio.io/installation/#linux-installation)
