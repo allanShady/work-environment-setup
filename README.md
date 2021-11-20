@@ -49,7 +49,8 @@ Here is a list of my favorite tools and programs for different work environments
  
  ### backend / API
  
- - [nodeJS](https://nodejs.org/en/)
+ - [nodeJS](https://nodejs.org/en/) 
+ - [nodeJS installation step by step](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/)
  - [.NET 5 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/linux)
  - [Insomnia](https://insomnia.rest/download)
  
