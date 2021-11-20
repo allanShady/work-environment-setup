@@ -77,6 +77,7 @@ Here is a list of my favorite tools and programs for different work environments
  ## CICD
  - [github action](https://github.com/features/actions)
  - [docker container](https://www.docker.com/resources/what-container)
+ - [docker installation on ubuntu](https://docs.docker.com/engine/install/ubuntu/)
  - [nginx](https://www.nginx.com/)
  - [Helm](https://helm.sh/)
  - [k8slens](https://k8slens.dev/) - kubernetes IDE 4 pods debbunging 
