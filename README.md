@@ -1,6 +1,6 @@
 # My work environment setup 
 
-Here is a list of my favorite tools and programs for different work environments. Enjoy it!
+Here is a list of my favorite tools and programs for differents work environments. Enjoy it!
 
 [ansible installation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu)
 
