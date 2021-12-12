@@ -3,6 +3,7 @@
 Here is a list of my favorite tools and programs for different work environments. Enjoy it!
 
 [ansible installation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu)
+[setup oh-my-zsh on windows WSL 2](https://medium.com/appstud/web-development-setup-on-windows-wsl-ubuntu-windows-terminal-oh-my-zsh-powerlevel10k-efcfc9a1c260)
 
 ## OS
   - [Ubuntu Desktop LTS](https://ubuntu.com/download/desktop) (linux debian family)
