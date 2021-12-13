@@ -1,0 +1,6 @@
+---
+- name: "Installing dbeaver through snap - https://snapcraft.io/install/dbeaver-ce/ubuntu"
+  become: yes
+  snap:
+    name: dbeaver-ce
+    classic: yes
