@@ -1,0 +1,6 @@
+---
+- name: "Installing nodejs through snap - https://snapcraft.io/install/node/ubuntu"
+  become: yes
+  snap:
+    name: node
+    classic: yes
