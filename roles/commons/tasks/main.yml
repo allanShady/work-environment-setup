@@ -1,0 +1,19 @@
+---
+- name: Update repository
+  apt_repository:
+  repo: 'ppa:git-core/ppa'
+  state: present
+
+- name: Install Git
+  become: yes
+  apt:
+    name: git
+    update_cache: yes
+    state: present
+
+- name: Install curl
+  become: yes
+  apt:
+    name: curl
+    update_cache: yes
+    state: present
