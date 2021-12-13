@@ -1,0 +1,29 @@
+---
+- hosts: localhost
+  roles:
+#    - role: commons
+#      tags: commons  
+#    - role: oh-my-zsh
+#      tags: oh-my-zsh
+#    - role: vscode
+#      tags: vscode
+   - role: nodejs
+     tags: nodejs
+#    - role: yarn
+#      tags: [yarn, nodejs]
+#    - role: java
+#      tags: java
+#    - role: docker
+#      tags: [docker, commons]
+#    - role: dotnetcore
+#      tags: dotnetcore
+#    - role: go-lang
+#      tags: go-lang
+  vars_files:
+    - vars/all.yml
+  tasks:
+    - name: "Please follow the  gide bellow in order to fully setup your environment"
+      debug:
+        msg:
+          - "configure you git using the following instruction  git config --global user.email you@example.com"
+          - "Reboot your system and start breaking things"
