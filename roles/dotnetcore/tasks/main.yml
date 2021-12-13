@@ -1,0 +1,5 @@
+- name: "Installing dotnet-sdk latest through snap - https://snapcraft.io/install/dotnet-sdk/ubuntu"
+  become: yes
+  snap:
+    name: dotnet-sdk
+    classic: yes
