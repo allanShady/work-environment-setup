@@ -1,0 +1,10 @@
+---
+- name: "Installing VS Code from https://snapcraft.io/install/code/ubuntu"
+  become: yes
+  snap:
+    name: code
+    classic: yes
+
+- name: "Install VS Code listed extensions"
+  shell: code --install-extension {{ item }}
+  with_items: "{{vscode.extensions}}"
