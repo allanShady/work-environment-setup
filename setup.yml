@@ -7,8 +7,8 @@
 #      tags: oh-my-zsh
 #    - role: vscode
 #      tags: vscode
-   - role: nodejs
-     tags: nodejs
+  #  - role: nodejs
+  #    tags: nodejs
 #    - role: yarn
 #      tags: [yarn, nodejs]
 #    - role: java
@@ -19,6 +19,10 @@
 #      tags: dotnetcore
 #    - role: go-lang
 #      tags: go-lang
+    #  - role: insomnia
+    #    tags: insomnia
+     - role: lens-ide
+       tags: lens-ide
   vars_files:
     - vars/all.yml
   tasks:
