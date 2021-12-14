@@ -34,17 +34,17 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [x] rider
 - [x] vscode
 - [x] [nodejs](https://snapcraft.io/node)
-- [ ] java
-- [ ] maven
-- [ ] yarn
-- [ ] go-land
-- [ ] docker daemon
-- [ ] [OBS](https://snapcraft.io/obs-studio)
+- [x] [docker engine](https://docs.docker.com/engine/install/ubuntu/)
 - [x] [MicroK8s](https://snapcraft.io/install/microk8s)
 - [x] [insomnia](https://snapcraft.io/install/insomnia)
 - [x] [Lens IDE](https://snapcraft.io/install/kontena-lens)
 - [x] [beekeeper studio](https://snapcraft.io/beekeeper-studio)
 - [x] [dbeaver](https://snapcraft.io/dbeaver-ce)
+- [ ] java
+- [ ] maven
+- [ ] yarn
+- [ ] go-land
+- [ ] [OBS](https://snapcraft.io/obs-studio)
 
 ## 🧘🏿‍ RoadMap
 

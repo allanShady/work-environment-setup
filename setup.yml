@@ -13,8 +13,8 @@
 #      tags: [yarn, nodejs]
 #    - role: java
 #      tags: java
-#    - role: docker
-#      tags: [docker, commons]
+   - role: docker
+     tags: [docker, commons]
 #    - role: dotnetcore
 #      tags: dotnetcore
 #    - role: go-lang
@@ -25,8 +25,8 @@
     #    tags: lens-ide
     #  - role: beekeeper-studio
     #    tags: beekeeper-studio
-     - role: dbeaver-ce
-       tags: dbeaver-ce
+    #  - role: dbeaver-ce
+    #    tags: dbeaver-ce
   vars_files:
     - vars/all.yml
   tasks:

@@ -1,3 +1,7 @@
+docker:
+  compose:
+    version: 1.29.2
+
 vscode:
   ## add all desired extensions here
   extensions:
