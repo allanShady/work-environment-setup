@@ -23,8 +23,10 @@
     #    tags: insomnia
     #  - role: lens-ide
     #    tags: lens-ide
-     - role: beekeeper-studio
-       tags: beekeeper-studio
+    #  - role: beekeeper-studio
+    #    tags: beekeeper-studio
+     - role: dbeaver-ce
+       tags: dbeaver-ce
   vars_files:
     - vars/all.yml
   tasks:

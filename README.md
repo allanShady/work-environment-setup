@@ -41,9 +41,9 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [ ] docker daemon
 - [ ] [OBS](https://snapcraft.io/obs-studio)
 - [x] [MicroK8s](https://snapcraft.io/install/microk8s)
-- [ ] [insomnia](https://snapcraft.io/install/insomnia)
-- [ ] [Lens IDE](https://snapcraft.io/install/kontena-lens)
-- [ ] [beekeeper studio](https://snapcraft.io/beekeeper-studio)
+- [x] [insomnia](https://snapcraft.io/install/insomnia)
+- [x] [Lens IDE](https://snapcraft.io/install/kontena-lens)
+- [x] [beekeeper studio](https://snapcraft.io/beekeeper-studio)
 - [x] [dbeaver](https://snapcraft.io/dbeaver-ce)
 
 ## 🧘🏿‍ RoadMap
