@@ -40,9 +40,9 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [x] [Lens IDE](https://snapcraft.io/install/kontena-lens)
 - [x] [beekeeper studio](https://snapcraft.io/beekeeper-studio)
 - [x] [dbeaver](https://snapcraft.io/dbeaver-ce)
+- [x] [yarn](https://yarnpkg.com/getting-started/install)
 - [ ] java
 - [ ] maven
-- [ ] yarn
 - [ ] go-land
 - [ ] [OBS](https://snapcraft.io/obs-studio)
 

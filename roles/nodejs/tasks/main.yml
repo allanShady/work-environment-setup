@@ -4,3 +4,7 @@
   snap:
     name: node
     classic: yes
+
+- name: "Installing  yarn with corepack - npm i -g corepack"
+  become: yes
+  shell: sudo npm i -g corepack
