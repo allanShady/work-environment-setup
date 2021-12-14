@@ -1,0 +1,6 @@
+---
+- name: "Installing insomnia through snap - https://snapcraft.io/install/insomnia/ubuntu"
+  become: yes
+  snap:
+    name: insomnia
+    classic: yes
