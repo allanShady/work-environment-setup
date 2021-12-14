@@ -21,8 +21,10 @@
 #      tags: go-lang
     #  - role: insomnia
     #    tags: insomnia
-     - role: lens-ide
-       tags: lens-ide
+    #  - role: lens-ide
+    #    tags: lens-ide
+     - role: beekeeper-studio
+       tags: beekeeper-studio
   vars_files:
     - vars/all.yml
   tasks:
