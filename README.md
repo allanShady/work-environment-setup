@@ -92,6 +92,10 @@ Here is a list of my favorite tools and programs for differents work environment
 ## Usefull commands
 
   ### Docker
+  * [docker WSL failing to start](https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate)
+  ```shell
+    sudo -b unshare --pid --fork --mount-proc /lib/systemd/systemd --system-unit=basic.target
+  ```
   * remove all untagged images
   ```shell
     docker rmi $(docker images -f dangling=true -q) --force
