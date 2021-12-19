@@ -9,14 +9,14 @@
 #      tags: vscode
     #  - role: nodejs
     #    tags: nodejs
-     - role: java
-       tags: java
+    #  - role: java
+    #    tags: java
     #  - role: docker
     #    tags: [docker, commons]
 #    - role: dotnetcore
 #      tags: dotnetcore
-#    - role: go-lang
-#      tags: go-lang
+   - role: golang
+     tags: golang
     #  - role: insomnia
     #    tags: insomnia
     #  - role: lens-ide

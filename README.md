@@ -44,7 +44,7 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [x] [yarn](https://yarnpkg.com/getting-started/install)
 - [x] java
 - [x] maven
-- [ ] go-land
+- [x] goland
 - [ ] [OBS](https://snapcraft.io/obs-studio)
 
 ## 🧘🏿‍ RoadMap
