@@ -34,6 +34,7 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [x] rider
 - [x] vscode
 - [x] [nodejs](https://snapcraft.io/node)
+  - [x] [yarn](https://yarnpkg.com/getting-started/install#nodejs-1610-1)
 - [x] [docker engine](https://docs.docker.com/engine/install/ubuntu/)
 - [x] [MicroK8s](https://snapcraft.io/install/microk8s)
 - [x] [insomnia](https://snapcraft.io/install/insomnia)
@@ -41,8 +42,8 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [x] [beekeeper studio](https://snapcraft.io/beekeeper-studio)
 - [x] [dbeaver](https://snapcraft.io/dbeaver-ce)
 - [x] [yarn](https://yarnpkg.com/getting-started/install)
-- [ ] java
-- [ ] maven
+- [x] java
+- [x] maven
 - [ ] go-land
 - [ ] [OBS](https://snapcraft.io/obs-studio)
 
