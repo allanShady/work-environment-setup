@@ -7,12 +7,12 @@
 #      tags: oh-my-zsh
 #    - role: vscode
 #      tags: vscode
-     - role: nodejs
-       tags: nodejs
-#    - role: java
-#      tags: java
-  #  - role: docker
-  #    tags: [docker, commons]
+    #  - role: nodejs
+    #    tags: nodejs
+     - role: java
+       tags: java
+    #  - role: docker
+    #    tags: [docker, commons]
 #    - role: dotnetcore
 #      tags: dotnetcore
 #    - role: go-lang

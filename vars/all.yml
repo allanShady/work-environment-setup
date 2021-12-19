@@ -2,6 +2,9 @@ docker:
   compose:
     version: 1.29.2
 
+java:
+  jdk: 17
+
 vscode:
   ## add all desired extensions here
   extensions:
