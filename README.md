@@ -106,6 +106,16 @@ Here is a list of my favorite tools and programs for differents work environment
     yarn cache clean --force
   ```
   
+  ### Ubuntu common issue solved
+  ```shell
+      # network icon disappear
+      nmcli network on
+      
+      # Bluetooth fails to start and does not show the icon. This issue happens in most the case when you have a dual boot
+      sudo rmmod btusb
+      sudo modprobe btusb
+  ```
+  
   ### [AWS SAM installation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html)
   ### JAVA installation
   * [install java on ubuntu ](https://linuxize.com/post/install-java-on-ubuntu-20-04/)
