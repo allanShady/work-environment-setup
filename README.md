@@ -1,6 +1,10 @@
 ## 💻 Idea 
 > [Ubuntu](https://ubuntu.com/download/desktop) dev environment setup automated with [ansible](https://www.ansible.com/). You can use any linux distro that is **linux debian family**
 
+ansible-playbook
+Here is a list of my favorite tools and programs for differents work environments. Enjoy it!
+
+[ansible installation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu)
 
 ### [before we begin on ubuntu](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu)
 
