@@ -45,7 +45,7 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [x] java
 - [x] maven
 - [x] goland
-- [ ] [OBS](https://snapcraft.io/obs-studio)
+- [x] [OBS](https://snapcraft.io/obs-studio)
 
 ## 🧘🏿‍ RoadMap
 
