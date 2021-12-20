@@ -1,0 +1,6 @@
+---
+- name: "Installing lens-ide through snap - https://snapcraft.io/install/kontena-lens/ubuntu"
+  become: yes
+  snap:
+    name: kontena-lens
+    classic: yes

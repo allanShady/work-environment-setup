@@ -1,0 +1,21 @@
+---
+- name: "Removing the previous GoLang previous installation"
+  become: yes
+  file:
+    path: /usr/local/go
+    state: absent
+
+- name: "Downloading GoLang archive"
+  get_url:
+    url: https://go.dev/dl/go{{ go.version }}.linux-amd64.tar.gz
+    dest: /tmp/GoLang.tar.gz
+
+- name: "Extracting GoLang installation archive"
+  become: yes
+  unarchive:
+    src: /tmp/GoLang.tar.gz
+    dest: /usr/local
+
+- name: "Adding GoLang path to the system environment variablles"
+  become: yes
+  shell: export PATH=$PATH:/usr/local/go/bin && . ~/.profile # source ~/.profile

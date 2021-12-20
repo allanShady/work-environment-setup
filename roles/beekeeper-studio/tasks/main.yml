@@ -1,0 +1,6 @@
+---
+- name: "Installing beekeeper-studio through snap - https://snapcraft.io/install/beekeeper-studio/ubuntu"
+  become: yes
+  snap:
+    name: beekeeper-studio
+    classic: yes

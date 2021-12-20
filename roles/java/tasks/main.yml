@@ -1,0 +1,22 @@
+---
+- name: "Installing java {{ java.jdk }} OpenJDK"
+  become: yes
+  apt:
+    name: "openjdk-{{ java.jdk }}-jdk"
+    state: present
+    update_cache: yes
+
+- name: "Setting JAVA_HOME env var value"
+  become: yes
+  lineinfile:
+    dest: /etc/environment
+    state: present
+    regexp: '^JAVA_HOME'
+    line: 'JAVA_HOME=/usr/lib/jvm/java-{{ java.jdk }}-openjdk-amd64'
+
+- name: "Installing Maven"
+  become: yes
+  apt:
+    name: maven
+    state: present
+    update_cache: yes

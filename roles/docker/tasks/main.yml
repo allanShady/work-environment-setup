@@ -1,0 +1,76 @@
+---
+- name: "Installing docker dependencies"
+  become: yes
+  apt:
+    name: "{{item}}"
+    update_cache: yes
+    state: present
+  loop:
+    - apt-transport-https
+    - ca-certificates
+    - curl
+    - gnupg-agent
+    - software-properties-common
+
+- name: Adding gpg key
+  apt_key:
+    url: https://download.docker.com/linux/ubuntu/gpg
+    state: present
+  become: true  
+
+- name: Adding apt docker to repository
+  apt_repository:
+    repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ ansible_distribution_release }} stable"
+    state: present
+    update_cache: yes
+  become: true
+
+- name: Update apt packages
+  apt:
+    update_cache: yes
+  become: true
+
+- name: Install packages
+  apt:
+    name: "{{item}}"
+    state: latest
+    update_cache: yes
+  loop:
+    - docker-ce
+    - docker-ce-cli
+    - containerd.io
+  become: true
+
+# sudo groupadd docker
+- name: Create "docker" group
+  group:
+    name: docker
+    state: present
+
+# sudo usermod -aG docker root
+- name: adding existing user "{{ local_username }}" to "docker" group
+  become: yes
+  user:
+    name: "{{ local_username }}"
+    groups: docker
+    append: yes
+
+# install docker-compose 1.24.0 version, but you can specify the version you need & apply executable permissions to the binary
+- name: install docker-compose
+  become: yes
+  get_url:
+    url: https://github.com/docker/compose/releases/download/{{ docker.compose.version }}/docker-compose-{{ ansible_system }}-{{ ansible_userspace_architecture }}
+    dest: /usr/local/bin/docker-compose
+    mode: 'u+x,g+x'
+
+# you can also create a symbolic link to /usr/bin or any other directory in your path
+- name: Create symlink
+  become: yes
+  file: src=/usr/local/bin/docker-compose dest=/usr/bin/docker-compose state=link
+
+- name: make sure that docker was started and enabled
+  service:
+    name: docker
+    state: started
+    enabled: yes
+  become: true

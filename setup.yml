@@ -1,0 +1,37 @@
+---
+- hosts: localhost
+  roles:
+   - role: commons
+     tags: commons  
+   - role: oh-my-zsh
+     tags: oh-my-zsh
+   - role: vscode
+     tags: vscode
+   - role: nodejs
+     tags: nodejs
+   - role: java
+     tags: java
+   - role: docker
+     tags: [docker, commons]
+   - role: dotnetcore
+     tags: dotnetcore
+   - role: golang
+     tags: golang
+   - role: obs-studio
+     tags: obs-studio
+   - role: insomnia
+     tags: insomnia
+   - role: lens-ide
+     tags: lens-ide
+   - role: beekeeper-studio
+     tags: beekeeper-studio
+   - role: dbeaver-ce
+     tags: dbeaver-ce
+  vars_files:
+    - vars/all.yml
+  tasks:
+    - name: "Please follow the  gide bellow in order to fully setup your environment"
+      debug:
+        msg:
+          - "configure you git using the following instruction  git config --global user.email you@example.com"
+          - "Reboot your system and start breaking things"

@@ -1,0 +1,59 @@
+docker:
+  compose:
+    version: 1.29.2
+
+java:
+  jdk: 17
+
+go:
+  version: 1.17.5
+
+vscode:
+  ## add all desired extensions here
+  extensions:
+    - 2gua.rainbow-brackets
+    - aaron-bond.better-comments
+    - SonarSource.sonarlint-vscode
+    - SonatypeCommunity.vscode-iq-plugin
+    - DavidAnson.vscode-markdownlint
+    - dbaeumer.vscode-eslint
+    - defaltd.go-coverage-viewer
+    - donjayamanne.githistory
+    - DotJoshJohnson.xml
+    - eamodio.gitlens
+    - EditorConfig.EditorConfig
+    - GabrielBB.vscode-lombok
+    - ggrebert.quarkus-snippets
+    - GitLab.gitlab-workflow
+    - golang.go
+    - hollowtree.vue-snippets
+    - joaompinto.vscode-graphviz
+    - mhutchie.git-graph
+    - mikestead.dotenv
+    - ms-azuretools.vscode-docker
+    - ms-dotnettools.csharp
+    - octref.vetur
+    - PKief.material-icon-theme
+    - redhat.fabric8-analytics
+    - redhat.java
+    - redhat.vscode-commons
+    - redhat.vscode-microprofile
+    - redhat.vscode-quarkus
+    - redhat.vscode-xml
+    - ritwickdey.LiveServer
+    - fabiospampinato.vscode-monokai-night
+    - sdras.night-owl
+    - shd101wyy.markdown-preview-enhanced
+    - SonarSource.sonarlint-vscode
+    - SonatypeCommunity.vscode-iq-plugin
+    - streetsidesoftware.code-spell-checker
+    - VisualStudioExptTeam.vscodeintellicode
+    - vscjava.vscode-java-debug
+    - vscjava.vscode-java-dependency
+    - vscjava.vscode-java-pack
+    - vscjava.vscode-java-test
+    - vscjava.vscode-maven
+    - xabikos.JavaScriptSnippets
+    - yagoluiz.sonar-dotnet-vscode
+    - yzhang.markdown-all-in-one
+    - CoenraadS.bracket-pair-colorizer-2

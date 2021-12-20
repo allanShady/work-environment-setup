@@ -1,0 +1,6 @@
+---
+- name: "Installing rider through snap - https://snapcraft.io/install/rider/ubuntu"
+  become: yes
+  snap:
+    name: rider
+    classic: yes
