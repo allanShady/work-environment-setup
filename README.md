@@ -106,6 +106,11 @@ Here is a list of my favorite tools and programs for differents work environment
     yarn cache clean --force
   ```
   
+  ### strat docker on WSL 2
+  ```shell
+    sudo -b unshare --pid --fork --mount-proc /lib/systemd/systemd --system-unit=basic.target
+  ```
+  
   ### Ubuntu common issue solved
   ```shell
       # network icon disappear
