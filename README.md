@@ -47,6 +47,10 @@ Here is a list of my favorite tools and programs for differents work environment
  
  API Testing tools
   - [Insomnia](https://insomnia.rest/download)
+
+ ## Vidoe and Audio
+ - [Celluloid](https://celluloid-player.github.io/installation.html)
+  - [flatpack isntallation](https://flatpak.org/setup/Ubuntu)
  
  ## Enviroment setup
  
