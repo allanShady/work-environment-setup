@@ -8,6 +8,7 @@ Here is a list of my favorite tools and programs for differents work environment
   - [Ubuntu Desktop LTS](https://ubuntu.com/download/desktop) (linux debian family)
   - [ubuntu for IoT](https://ubuntu.com/download/iot)
   - [OH-MY-ZSH and agnoster configuration](https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/)
+    - [custom theme - powerlevel10k](https://stackoverflow.com/questions/61176257/customizing-powerleve10k-prompt)
     * To see theme and hide user plus the host set the following values with 
     ```shell
       ZSH_THEME="agnoster" # set agnoster theme my favority one
