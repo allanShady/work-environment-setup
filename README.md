@@ -129,6 +129,7 @@ Here is a list of my favorite tools and programs for differents work environment
   ### [AWS SAM installation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-linux.html)
   ### JAVA installation
   * [install java on ubuntu ](https://linuxize.com/post/install-java-on-ubuntu-20-04/)
+  * [intall without using apt - lts](https://www.javahelps.com/2019/04/install-latest-oracle-jdk-on-linux.html)
   * [maven](https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-20-04/)
   * [updating maven](https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-20-04/#2-downloading-apache-maven)
   
