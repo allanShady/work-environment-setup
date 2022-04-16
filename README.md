@@ -16,6 +16,15 @@ Here is a list of my favorite tools and programs for differents work environment
     sudo apt install --yes ansible
 ```
 
+## Fix ansible not present on new ubuntu releases
+
+```shell
+  sudo add-apt-repository -r ppa:ansible/ansible  
+
+  # In case missing goLang after setup run the following command
+  export PATH=$PATH:/usr/local/go/bin && . ~/.profile
+```
+
 ### How to run
 First, make sure you have configure your system, by updating the `vars/all.yml` and `setup.yml` files to suit your needs, by commenting things you don't want and the ones you want.
 
@@ -48,7 +57,7 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [x] [yarn](https://yarnpkg.com/getting-started/install)
 - [x] java
 - [x] maven
-- [x] goland
+- [x] golang
 - [x] [OBS](https://snapcraft.io/obs-studio)
 
 ## 🧘🏿‍ RoadMap
@@ -58,9 +67,9 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [ ] Adapt for **Windows WSL2**
 - [ ] Share achievements on social media
 
-## :memo: Licence
+## :memo: License
 
-This project is under MIT Licence. Please refer to [LICENSE](LICENSE.md) file for more details.
+This project is under MIT License. Please refer to [LICENSE](LICENSE.md) file for more details.
 
 ---
 

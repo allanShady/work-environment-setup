@@ -16,6 +16,6 @@
     src: /tmp/GoLang.tar.gz
     dest: /usr/local
 
-- name: "Adding GoLang path to the system environment variablles"
+- name: "Adding GoLang path to the system environment variables"
   become: yes
   shell: export PATH=$PATH:/usr/local/go/bin && . ~/.profile # source ~/.profile
