@@ -23,6 +23,9 @@ Here is a list of my favorite tools and programs for differents work environment
 
   # In case missing goLang after setup run the following command
   export PATH=$PATH:/usr/local/go/bin && . ~/.profile
+
+  # To change user config
+  ~/.config/Code/User/settings.json
 ```
 
 ### How to run

@@ -1,0 +1,14 @@
+---
+- name: "Downloading JetBrains Mono"
+  get_url:
+    url: https://download.jetbrains.com/fonts/JetBrainsMono-2.242.zip
+    dest: /tmp/JetBrainsMono.zip
+
+- name: "Extracting JetBrains Mono fonts"
+  become: yes
+  unarchive:
+    src: /tmp/JetBrainsMono.zip
+    dest: /usr/share/fonts
+
+- name: clean cache
+  shell: fc-cache -f -v
