@@ -2,11 +2,14 @@ docker:
   compose:
     version: 1.29.2
 
+terraform:
+  version: 1.1.8
+
 java:
   jdk: 17
 
 go:
-  version: 1.17.5
+  version: 1.18.1
 
 vscode:
   ## add all desired extensions here
@@ -42,7 +45,7 @@ vscode:
     - redhat.vscode-xml
     - ritwickdey.LiveServer
     - fabiospampinato.vscode-monokai-night
-    - sdras.night-owl
+#    - sdras.night-owl
     - shd101wyy.markdown-preview-enhanced
     - SonarSource.sonarlint-vscode
     - SonatypeCommunity.vscode-iq-plugin
@@ -53,7 +56,7 @@ vscode:
     - vscjava.vscode-java-pack
     - vscjava.vscode-java-test
     - vscjava.vscode-maven
-    - xabikos.JavaScriptSnippets
+#    - xabikos.JavaScriptSnippets
     - yagoluiz.sonar-dotnet-vscode
     - yzhang.markdown-all-in-one
     - CoenraadS.bracket-pair-colorizer-2

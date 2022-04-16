@@ -1,0 +1,21 @@
+---
+- name: "Removing the previous terraform previous installation"
+  become: yes
+  file:
+    path: /usr/local/bin/terraform
+    state: absent
+
+- name: "Downloading terraform archive"
+  get_url:
+    url: https://releases.hashicorp.com/terraform/{{ terraform.version }}/terraform_{{ terraform.version }}_linux_amd64.zip
+    dest: /tmp/terraform_{{ terraform.version }}.zip
+
+- name: "Extracting terraform binary"
+  become: yes
+  unarchive:
+    src: /tmp/terraform_{{ terraform.version }}.zip
+    dest: /usr/local/bin/
+
+- name: "Adding terraform to the path to the system environment variables"
+  become: yes
+  shell: export PATH=$PATH:/usr/local/bin/terraform && . ~/.profile # source ~/.profile%    

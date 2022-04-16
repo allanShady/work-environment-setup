@@ -13,18 +13,22 @@
      tags: java
    - role: docker
      tags: [docker, commons]
+   - role: microk8s
+     tags: [microk8s, k8s]
    - role: dotnetcore
      tags: dotnetcore
    - role: golang
      tags: golang
+   - role: terraform
+     tags: [terraform, IaC]
    - role: obs-studio
      tags: obs-studio
    - role: insomnia
      tags: insomnia
    - role: lens-ide
      tags: lens-ide
-   - role: beekeeper-studio
-     tags: beekeeper-studio
+  #  - role: beekeeper-studio
+  #    tags: beekeeper-studio
    - role: dbeaver-ce
      tags: dbeaver-ce
   vars_files:
