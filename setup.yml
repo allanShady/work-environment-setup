@@ -28,10 +28,12 @@
      tags: insomnia
    - role: lens-ide
      tags: lens-ide
-  #  - role: beekeeper-studio
-  #    tags: beekeeper-studio
+   - role: beekeeper-studio
+     tags: beekeeper-studio
    - role: dbeaver-ce
      tags: dbeaver-ce
+   - role: aws-cli
+     tags: aws-cli
   vars_files:
     - vars/all.yml
   tasks:

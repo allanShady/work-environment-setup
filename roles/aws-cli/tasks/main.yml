@@ -1,0 +1,15 @@
+---
+- name: "Downloading aws-cli"
+  get_url:
+    url: https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip
+    dest: /tmp/aws-cli-v2.zip
+
+- name: "Extracting aws-cli"
+  become: yes
+  unarchive:
+    src: /tmp/aws-cli-v2.zip
+    dest: /tmp
+
+- name: installing aws-cli v2
+  become: yes
+  shell: /tmp/aws/install --update

@@ -1,6 +1,12 @@
 ---
-- name: "Installing dbeaver through snap - https://snapcraft.io/install/dbeaver-ce/ubuntu"
+- name: "Installing dbeaver through flatpak - https://snapcraft.io/install/dbeaver-ce/ubuntu"
+  flatpak:
+    name: io.dbeaver.DBeaverCommunity
+    state: present
+
+- name: install postgres-client (pg_dump)
   become: yes
-  snap:
-    name: dbeaver-ce
-    classic: yes
+  apt:
+    name: postgresql-client
+    state: latest
+    update_cache: yes
