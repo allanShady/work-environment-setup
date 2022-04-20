@@ -43,6 +43,7 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 
 ## 🔖 Available playbooks
 
+- [x] [awscli](https://aws.amazon.com/cli/)
 - [x] git
 - [x] curl
 - [x] dotnetcore
@@ -55,8 +56,7 @@ First, make sure you have configure your system, by updating the `vars/all.yml` 
 - [x] [MicroK8s](https://snapcraft.io/install/microk8s)
 - [x] [insomnia](https://snapcraft.io/install/insomnia)
 - [x] [Lens IDE](https://snapcraft.io/install/kontena-lens)
-- [x] [beekeeper studio](https://snapcraft.io/beekeeper-studio)
-- [x] [dbeaver](https://snapcraft.io/dbeaver-ce)
+- [x] [dbeaver](https://dbeaver.io/download)
 - [x] [yarn](https://yarnpkg.com/getting-started/install)
 - [x] java
 - [x] maven
