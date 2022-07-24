@@ -134,3 +134,19 @@ Here is a list of my favorite tools and programs for differents work environment
   * To change jave version (`sudo update-alternatives --config java`)
   * [updating maven](https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-20-04/#2-downloading-apache-maven)
   
+  ## Install taskfile
+  
+  ```shell
+    sudo sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin
+  ```
+  > Instaling manually 
+  ```shell
+    pushd /tmp
+    wget https://github.com/go-task/task/releases/download/v3.7.0/task_linux_arm.tar.gz
+    tar -xvf task_linux_arm.tar.gz
+    sudo mv task /usr/local/bin/task
+    sudo chmod +x /usr/local/bin/task
+    popd
+  ```
+  
+  
