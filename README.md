@@ -96,6 +96,23 @@ Here is a list of my favorite tools and programs for differents work environment
 
 ## Usefull commands
 
+  ### Free ubuntu disk
+  > To check what is eating you storage use the following command `df -h`
+  * First create a file a name it **clear-older-snap-vers.bash** and copy the following content to inside it
+
+    ```shell
+        #!/bin/bash
+        # https://superuser.com/a/1330590
+        # Removes old revisions of snaps
+        # CLOSE ALL SNAPS BEFORE RUNNING THIS set -eu
+        
+        snap list --all | awk '/disabled/{print $1, $3}' |
+            while read snapname revision; do
+                snap remove "$snapname" --revision="$revision"
+            done
+    ```
+  * Second run the file with the following command `sudo chmod 777 ./dir-to-file/clear-older-snap-vers.bash`
+
   ### Docker
   * [docker WSL failing to start](https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate)
   ```shell
@@ -104,6 +121,24 @@ Here is a list of my favorite tools and programs for differents work environment
   * remove all untagged images
   ```shell
     docker rmi $(docker images -f dangling=true -q) --force
+  ```
+  * Remove docker overlay2 file to free space
+```shell
+    # Stop docker service
+    sudo systemctl stop docker
+
+    # stoping docker may need stop socket too
+    sudo systemctl stop docker.socket
+
+    # Inspect used files
+     sudo du -h /var/lib/docker
+
+    # delete all overlay2 files
+    sudo rm -rf /var/lib/docker
+
+    # Start docker
+    systemctl enable docker
+    systemctl start docker
   ```
   
   ### Clear npm cache
